@@ -1,0 +1,49 @@
+.header__logo {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+.thanks__heading {
+    width: 1381px;
+    height: 365px;
+    position: absolute;
+    top: 319px;
+    left: 66px;
+    gap: 0px;
+    font-family: 'Inika', serif;
+    font-size: 280px;
+    font-weight: 400;
+    line-height: 364.84px;
+    text-align: left;
+    background: #8B79690D;
+    opacity: 0;
+}
+
+.thanks__heading h2 {
+    width: 510px;
+    height: 39px;
+    position: absolute;
+    top: 461px;
+    left: 501px;
+    gap: 0px;
+    opacity: 0;
+    font-family: 'Inika', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.09px;
+    text-align: left;
+    background: #8B7969;
+}
+
+.thanks__heading .btn-primary {
+    width: auto;
+    height: auto;
+    top: 555px;
+    left: 686px;
+    padding: 10px 40px;
+    gap: 10px;
+    opacity: 0;
+    background: #82756A;
+    border-color: #82756A;
+}

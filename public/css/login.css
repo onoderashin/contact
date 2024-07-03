@@ -1,0 +1,84 @@
+.register-button {
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    top: 33px;
+    left: 1316px;
+    gap: 0px;
+    border: 1px solid #D9C6B5;
+    opacity: 0;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.06px;
+    text-align: center;
+    background: #D9C6B5;
+}
+
+.fashionably-late {
+    width: 1512px;
+    height: 100px;
+    gap: 0px;
+    opacity: 0;
+    background: #8B7969;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.12px;
+    text-align: center;
+    border: 1px solid #E0DFDE;
+}
+
+.login-button {
+    width: 160px;
+    height: 46px;
+    position: absolute;
+    top: 708px;
+    left: 676px;
+    padding: 10px 40px;
+    gap: 10px;
+    opacity: 0;
+    background: #82756A;
+}
+
+.example-text {
+    width: 111px;
+    height: 18px;
+    position: absolute;
+    top: 577px;
+    left: 561px;
+    gap: 0px;
+    opacity: 0;
+    font-family: Inika;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.24px;
+    text-align: left;
+    background: #BEB1A6;
+}
+
+.email-label {
+    width: 175px;
+    height: 33px;
+    position: absolute;
+    top: 362px;
+    left: 534px;
+    gap: 0px;
+    opacity: 0;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.57px;
+    text-align: left;
+    background: #8B7969;
+}
+
+.email-input-box {
+    width: 445px;
+    height: 55px;
+    position: absolute;
+    top: 409px;
+    left: 534px;
+    gap: 0px;
+    opacity: 0;
+}

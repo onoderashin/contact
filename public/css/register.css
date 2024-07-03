@@ -1,0 +1,100 @@
+body {
+    position: relative;
+}
+
+.login-button {
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    top: 33px;
+    left: 1316px;
+    gap: 0px;
+    border: 1px solid #D9C6B5;
+    opacity: 0px;
+}
+
+.header-banner {
+    width: 1512px;
+    height: 100px;
+    gap: 0px;
+    border: 1px solid #E0DFDE;
+    opacity: 0px;
+    background: #8B7969;
+}
+
+.form-container {
+    width: 736px;
+    height: 644px;
+    position: absolute;
+    top: 264px;
+    left: 388px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px solid #C5B9B0;
+    background: #FFFFFF;
+}
+
+.form-group {
+    width: 445px;
+    height: 396px;
+    top: 341px;
+    left: 534px;
+    gap: 45px;
+    opacity: 0px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-button {
+    width: 120px;
+    height: 46px;
+    position: absolute;
+    top: 800px;
+    left: 696px;
+    padding: 10px 40px;
+    gap: 10px;
+    opacity: 0px;
+    background: #82756A;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register-header {
+    width: 134px;
+    height: 46px;
+    position: absolute;
+    top: 159px;
+    left: 689px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inika;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.61px;
+    text-align: left;
+    background: #8B7969;
+    color: #fff;
+}
+
+.bottom-banner {
+    width: 1512px;
+    height: 99px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+}

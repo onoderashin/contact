@@ -1,0 +1,51 @@
+.fashionably-late {
+    width: 1512px;
+    height: 100px;
+    gap: 0px;
+    border: 1px solid #E0DFDE;
+    opacity: 0;
+    background-color: #8B7969;
+}
+
+.contact {
+    width: 121px;
+    height: 46px;
+    position: absolute;
+    top: 150px;
+    left: 694px;
+    gap: 0px;
+    opacity: 0;
+    font-family: 'Inika', serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.61px;
+    text-align: left;
+    background-color: #8B7969;
+}
+
+.main-content {
+    width: 972px;
+    height: 606px;
+    position: absolute;
+    top: 247px;
+    left: 273px;
+    gap: 0px;
+    opacity: 0;
+    border: 1px solid #8B7969;
+}
+
+.form__button-submit {
+    width: 160px;
+    height: 46px;
+    position: absolute;
+    top: 903px;
+    left: 674px;
+    padding: 10px 40px;
+    opacity: 0;
+    background: #82756A;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
