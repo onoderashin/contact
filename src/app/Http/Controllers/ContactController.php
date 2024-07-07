@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class ContactController extends Controller
 {
@@ -10,28 +11,15 @@ class ContactController extends Controller
     {
         return view('index');
     }
-
-    public function showConfirmPage()
+    public function confirm(Request $request)
     {
-        return view('Confirm');
+        $contact = $request->only(['name', 'email', 'tel', 'content']);
+        return view('confirm', compact('contact'));
     }
-
-    public function showThanksPage()
-    {
-        return view('thanks');
-    }
-
-    public function showRegisterPage()
-    {
-        return view('register');
-    }
-
-    public function createNewUser()
-    {
-    }
-
-    public function showLoginPage()
-    {
-        return view('login');
+   public function store(Request $request)
+   {
+      $contact = $request->only(['name', 'email', 'tel', 'content']);
+      Contact::create($contact);
+      return view('thanks');
     }
 }

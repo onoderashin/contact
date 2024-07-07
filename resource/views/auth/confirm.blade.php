@@ -79,7 +79,7 @@
         </div>
         <div class="form__button">
             <a href="{{ route('inquiry.form') }}" onclick="history.back();return false;" class="modify-link">修正</a>
-            <form action="{{ route('inquiry.submit') }}" method="POST" style="display:inline;">
+            <form class="form" action="/contacts" method="post"> 
                 @csrf
                 <input type="hidden" name="last_name" value="{{ $data['last_name'] }}">
                 <input type="hidden" name="first_name" value="{{ $data['first_name'] }}">
